@@ -1,0 +1,10 @@
+# Secrets
+secret.yaml
+
+# Data
+mlflow-data/
+
+# Python
+__pycache__/
+*.pyc
+.env
