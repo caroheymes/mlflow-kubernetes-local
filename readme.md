@@ -49,9 +49,9 @@ minikube start `
   --kubernetes-version=latest
 ```
 
-Project Structure
+### Project Structure
 
-
+```text
 mlflow_v2/
 ├── README.md
 ├── .gitignore
@@ -74,7 +74,7 @@ mlflow_v2/
 └── mlflow-data/                 # Local data storage
     ├── postgres/                # PostgreSQL data
     └── artifacts/               # MLflow artifacts
-
+```
 
 ## Local Deployment
 
