@@ -23,7 +23,7 @@ A complete guide to deploy MLflow on a local Kubernetes cluster (minikube) with 
 
 
 ### Installation
-```bash
+```powershell
 # Install Minikube
 # Download from: https://minikube.sigs.k8s.io/docs/start/
 
@@ -38,7 +38,7 @@ pip install mlflow scikit-learn
 ```
 
 ### Minikube config
-``bash
+``powershell
 Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V -Online
 
 minikube start `
@@ -49,7 +49,7 @@ minikube start `
   --kubernetes-version=latest
 ```
 
-## Project Structure
+### Project Structure
 
 
 mlflow_v2/
