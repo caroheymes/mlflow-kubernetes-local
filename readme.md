@@ -38,7 +38,7 @@ pip install mlflow scikit-learn
 ```
 
 ### Minikube config
-``powershell
+```powershell
 Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V -Online
 
 minikube start `
